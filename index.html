@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Save Ryan</title>
+    <link rel="stylesheet" href="style/style.css"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+</head>
+<body>
+<div id="container">
+
+    <div id="gameScreen">
+
+        <div id="menu">
+            <h1>The Rescue</h1>
+            <p>Press 'W' to go up, 'S' to go down, and 'D' to shoot</p>
+            <a href="#" onclick="start()">Play &#9654;</a>
+        </div>
+
+    </div>
+
+</div>
+
+<audio src="resources/sound-effects/shot.mp3" preload="auto" id="shot_sound"></audio>
+<audio src="resources/sound-effects/explosion.mp3" preload="auto" id="explosion_sound"></audio>
+<audio src="resources/sound-effects/bg_music.mp3" preload="auto" id="music"></audio>
+<audio src="resources/sound-effects/gameover.mp3" preload="auto" id="gameover_sound"></audio>
+<audio src="resources/sound-effects/dead.mp3" preload="auto" id="death_sound"></audio>	
+<audio src="resources/sound-effects/rescued.mp3" preload="auto" id="rescued_sound"></audio>
+
+<script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+<script type="text/javascript" src="js/jquery-collision.min.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>
